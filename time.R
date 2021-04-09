@@ -16,6 +16,5 @@ library(tidyr)
 time
 time_long <-time %>% gather(type,value,words:similes)
 library(ggplot2)
-ggplot(time_long, aes(date,value)) + geom_line(aes)
+p <- ggplot(time_long, aes(year,value, color=type)) + geom_line()
 plot(p)
-??ggplot          
