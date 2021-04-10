@@ -1,4 +1,4 @@
-
+library("packrat")
 install.packages("readr")
 library("readr")
 titles <- read_csv("C:/Users/kesch/Documents/GitHub/R-ClassicLiteratureWriting/data/titles.csv")
